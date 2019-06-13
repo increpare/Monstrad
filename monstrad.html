@@ -1317,8 +1317,8 @@
 			if (instruction_screens[this.instr_state](text_params)) {
 				this.instr_state+=1;
 			}
-			params.font="small"; params.dx=400; params.dy=420;
-			params.text="Press enter to continue -->"; params.blit();
+			text_params.font="small"; text_params.dx=400; text_params.dy=420;
+			text_params.text="Press enter to continue -->"; text_params.blit();
 			return false;
 		}
 		
